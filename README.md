@@ -19,17 +19,17 @@ This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
 * [代码](#code)
 * [删除线](#strikethrough)
 * [斜体和加粗](#italic)
-* [文字链接](#link) 
+* [文字链接](#textlink) 
     *  行内式
     *  参考式
     *  行内式 锚点 
-* [图片链接](#pic)
+* [图片链接](#piclink)
     * 行内式 来源于网络的图片
     * 行内式 GitHub仓库中的图片
-    * [参考式 给图片加上超链接](#piclink)
-* [列表](#dot)
-* [引用](#symbol)
-* [GFM代码块](#code)
+    * [参考式 给图片加上超链接](#picwithhyperlink)
+* [列表](#list)
+* [引用](#blockquote)
+* [GFM代码块](#fgmcode)
 
 <a name="line"/>
 ##***、---、___显示水平标尺
@@ -74,7 +74,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 _斜体2_ __加粗2__
 
-##<a name="link"/>文字链接
+##<a name="textlink"/>文字链接
 ###行内式 
 [我的博客](http://blog.csdn.net/guodongxiaren/article/details/23690801 "可选的悬停显示")
 ###参考式
@@ -83,16 +83,16 @@ _斜体2_ __加粗2__
 ###行内式 锚点
 [点此回到目录](#index)
 
-##<a name="pic"/>图片链接
+##<a name="piclink"/>图片链接
 ###行内式 外部URL
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 ###行内式 GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink"> 参考式 给图片加上超链接
+###<a name="picwithhyperlink"> 参考式 给图片加上超链接
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 [head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
 
-##<a name="dot"/>列表
+##<a name="list"/>列表
 ###圆点列表
 * 昵称：果冻虾仁
 * 别名：隔壁老王
@@ -112,7 +112,7 @@ _斜体2_ __加粗2__
 - [ ] C#
 - [ ] .NET
 
-##<a name="symbol"/>引用
+##<a name="blockquote"/>引用
 ###嵌套引用
 >数据结构
 >>树
@@ -128,7 +128,7 @@ _斜体2_ __加粗2__
 “……下面我要告诉你的是，Lilliput和Blefuscu这两大强国在过去36个月里一直在苦战。战争开始是由于以下的原因：我们大家都认为，吃鸡蛋前，原始的方法是打破鸡蛋较大的一端，可是当今的皇帝的祖父小时候吃鸡蛋，一次按古法打鸡蛋时碰巧将一个手指弄破了，因此他的父亲，当时的皇帝，就下了一道敕令，命令全体臣民吃鸡蛋时打破较小的一端，违令者重罚。”
 
 
-##<a name="code"/>GFM代码块
+##<a name="gfmcode"/>GFM代码块
 ```Java
 public static void main(String[]args){} //Java
 ```
