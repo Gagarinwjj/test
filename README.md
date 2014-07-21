@@ -13,10 +13,12 @@ This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
 * [水平标尺](#line)
 * [标题](#title)
 * [文本](#text)
-    * 普通文本
-    * Tab 单行
-    * Tab 多行
-    * 代码
+    * 无Tab 文本
+    * Tab 单行文本
+    * Tab 多行文本
+* [代码](#code)
+* [删除线](#strikethrough)
+* [斜体和加粗](#italic)
 * [超链接](#link) 
     * 文字超链接
         *  行内式 外部URL
@@ -49,7 +51,7 @@ ___
 
 
 ##<a name="text"/>文本
-###无Tab的普通文本
+###无Tab的文本
 这是一段普通的文本，  
 直接回车不能换行，
 要使用2个及以上的空格再回车。
@@ -61,15 +63,17 @@ ___
     欢迎到访
     很高兴见到您
     祝您，早上好，中午好，下午好，晚安
-###代码
+
+##<a name="code">代码
 Thank `You` . Please `Call` Me `Coder`
 
-####删除线
+##<a name="strikethrough">删除线
 这是一个 ~~删除线~~ ,GFM特有的。
-####斜体
-*斜体1*
 
-_斜体2_
+##<a name="italic">斜体和加粗
+*斜体1* **加粗2**
+
+_斜体2_ __加粗2__
 
 ##<a name="link"/>文字链接
 ###行内式 外部URL
