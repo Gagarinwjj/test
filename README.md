@@ -79,7 +79,7 @@ _斜体2_ __加粗2__
 [我的博客](http://blog.csdn.net/guodongxiaren/article/details/23690801 "可选的悬停显示")
 ###参考式
 [我的博客][myblog]
-[myblog] http://www.cnblogs.com/gagarinwjj "我的博客园"
+[myblog]:http://www.cnblogs.com/gagarinwjj "我的博客园"
 ###行内式 锚点
 [点此回到目录](#index)
 
