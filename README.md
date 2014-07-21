@@ -30,6 +30,8 @@ This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
 * [列表](#list)
 * [引用](#blockquote)
 * [GFM代码块](#gfmcode)
+* [表格](#表格)
+
 
 <a name="line"/>
 ##***、---、___显示水平标尺
