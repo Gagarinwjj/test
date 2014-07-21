@@ -19,15 +19,14 @@ This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
 * [代码](#code)
 * [删除线](#strikethrough)
 * [斜体和加粗](#italic)
-* [超链接](#link) 
-    * 文字超链接
-        *  行内式 外部URL
-        *  行内式 本地库URL
-        *  参考式
-    * [图片超链接](#piclink)
-* [显示图片](#pic)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
+* [文字链接](#link) 
+    *  行内式
+    *  参考式
+    *  行内式 锚点 
+* [图片链接](#pic)
+    * 行内式 来源于网络的图片
+    * 行内式 GitHub仓库中的图片
+    * 参考式 [给图片加上超链接](#piclink)
 * [列表](#dot)
 * [引用](#symbol)
 * [GFM代码块](#code)
@@ -76,18 +75,20 @@ Thank `You` . Please `Call` Me `Coder`
 _斜体2_ __加粗2__
 
 ##<a name="link"/>文字链接
-###行内式 外部URL
+###行内式 
 [我的博客](http://blog.csdn.net/guodongxiaren/article/details/23690801 "可选的悬停显示")
-
+###参考式
+[我的博客][myblog]
+[myblog] http://www.cnblogs.com/gagarinwjj "我的博客园"
 ###行内式 锚点
 [点此回到目录](#index)
 
-##<a name="pic"/>显示图片
+##<a name="pic"/>图片链接
 ###行内式 外部URL
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 ###行内式 GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink">给图片加上超链接
+###<a name="piclink"> 给图片加上超链接
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 [head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
 
