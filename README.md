@@ -26,7 +26,7 @@ This README.md is used to test all kinds of syntax of GitHub Flavored Markdown.
 * [图片链接](#pic)
     * 行内式 来源于网络的图片
     * 行内式 GitHub仓库中的图片
-    * 参考式 [给图片加上超链接](#piclink)
+    * [参考式 给图片加上超链接](#piclink)
 * [列表](#dot)
 * [引用](#symbol)
 * [GFM代码块](#code)
@@ -88,7 +88,7 @@ _斜体2_ __加粗2__
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 ###行内式 GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink"> 给图片加上超链接
+###<a name="piclink"> 参考式 给图片加上超链接
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 [head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
 
